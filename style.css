@@ -1,0 +1,12 @@
+html {
+  border: solid orange;
+  border-width: thick;
+}
+
+.bg {
+  background-color: black;
+}
+
+.container {
+  color: white;
+}
