@@ -42,10 +42,10 @@ function RSVP() {
 var loadMusic = true
 
 
-function playSound() {
+function playSound(song) {
   document.getElementById("myNav").style.display = "none";
   if (loadMusic) {
-    var audio = new Audio('sound.mp3');
+    var audio = new Audio(song);
     audio.play();
     loadMusic = false
   }
