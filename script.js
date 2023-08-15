@@ -43,6 +43,7 @@ var loadMusic = true
 
 
 function playSound() {
+  document.getElementById("myNav").style.display = "none";
   if (loadMusic) {
     var audio = new Audio('sound.mp3');
     audio.play();
